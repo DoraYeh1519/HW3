@@ -1,0 +1,143 @@
+form{
+	width: 80%;	
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+}
+.topic{
+	margin-top: 1em;
+	display: block;
+	float: left;
+}
+
+label {
+	display: inline-block;
+	width: 10%;
+	text-align: right;
+}
+
+.topic2 label,.topic3 label{
+	width: 20%;
+}
+
+input, textarea{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.topic2 input,.topic3 input{
+	margin-left: 10%;
+}
+
+.topic1{
+	width: 100%;
+}
+
+.topic2{
+	width: 50%;
+}
+
+.topic3{
+	width: 50%;
+}
+
+.topic4{
+	width: 100%;
+}
+
+.topic5{
+	width: 100%;
+}
+
+#input1{
+	width: 80%;
+}
+
+#input3,#input2,#input4{
+	width: 60%;
+}
+
+#textarea{
+	width: 80%;
+	height: 10em;
+	resize: none;
+}
+
+#chicken{
+	vertical-align: top;
+	margin-left: 5%;
+	width: 80.5%;
+	height: auto;
+	margin-bottom: 5em;
+}
+
+body{
+	background-color: lightyellow;
+}
+
+@media (max-width: 700px){
+	body{
+		background-color: pink;
+	}
+	form{
+		font-size: 8px;
+	}
+	form label{
+		width: 15%;
+		text-align: right;
+	}
+	.topic2 label,.topic3 label{
+		width: 30%;
+	}
+
+	.topic1{
+		width: 100%;
+	}
+
+	.topic2{
+		width: 50%;
+	}
+
+	.topic3{
+		width: 50%;
+	}
+
+	.topic4{
+		width: 100%;
+	}
+
+	.topic5{
+		width: 100%;
+	}
+
+	#input1{
+		width: 75%;
+	}
+
+	#input3,#input2{
+		width: 50%;
+	}
+
+	#textarea{
+		width: 75%;
+		height: 10em;
+		resize: none;
+	}
+
+	#chicken{
+		vertical-align: top;
+		margin-left: 5%;
+		width: 76%;
+		height: auto;
+		margin-bottom: 5em;
+	}
+}
+
+@media print{
+	#chicken{
+		display: none;
+	}
+}
